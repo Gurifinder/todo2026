@@ -71,6 +71,9 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'todoproject.wsgi.application'
 
+LOGIN_URL = 'login'
+LOGIN_REDIRECT_URL = '/'
+
 
 # Database
 # https://docs.djangoproject.com/en/6.1/ref/settings/#databases
